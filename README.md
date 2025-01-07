@@ -1,8 +1,8 @@
-PDF Signature Detection for Subscribers
+#PDF Signature Detection for Subscribers
 
 This project aims to detect and highlight specific signatures in PDF documents, focusing on those that belong to subscribers. The final page of the provided PDF is processed, and only relevant signatures matching specific criteria are displayed on the annotated output image.
 
-Features
+#Features
 
 Extracts and processes the last page of a PDF document for signature detection.
 
@@ -14,7 +14,7 @@ Annotates detected signatures directly on the image and displays the results.
 
 Provides detailed coordinates of detected signatures for further analysis.
 
-How It Works
+#How It Works
 
 PDF Conversion
 
@@ -32,19 +32,19 @@ Aspect ratio: Between 2.0 and 6.0.
 
 Size constraints: Height between 50px and 300px.
 
-Result Visualization
+#Result Visualization
 
 Detected signatures are annotated on the image with red rectangles.
 
 Coordinates and confidence scores for each signature are printed.
 
-Output
+#Output
 
 Annotated image is displayed using Matplotlib.
 
 A detailed log of detected signatures is provided in the console.
 
-Technologies Used
+#Technologies Used
 
 Python for scripting and automation.
 
