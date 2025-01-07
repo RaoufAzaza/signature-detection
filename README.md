@@ -1,4 +1,4 @@
-#PDF Signature Detection for Subscribers
+PDF Signature Detection for Subscribers
 
 This project aims to detect and highlight specific signatures in PDF documents, focusing on those that belong to subscribers. The final page of the provided PDF is processed, and only relevant signatures matching specific criteria are displayed on the annotated output image.
 
